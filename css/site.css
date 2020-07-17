@@ -1,0 +1,46 @@
+main {
+    margin: 0 auto;
+    padding: 1.5em;
+    max-width: 70ch;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smooting: grayscale;
+
+    font-family: Calibri;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+a {
+    color: #699c3f;
+}
+
+.circular--portrait {
+    position: relative;
+    width: auto;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: right;
+}
+
+.circular--landscape {
+    position: relative;
+    width: 260px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 30%;
+    float: right;
+}
+
+.circular--icon {
+    position: relative;
+    width: auto;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+tab {
+    margin: 40px;
+}
