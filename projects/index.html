@@ -9,121 +9,110 @@
     <body>
         <button onclick="topFunction()" id="topButton" title="Back to top"><strong>TOP</strong></button>
 
-        <div style="background-color: rgba(178, 248, 225, 0.795);">
-            <main>
-                [<a href="../index.html" title="Home">Home</a>]
-                [<a href="../aboutme/index.html" title="About Me">About Me</a>]
-                [<a href="#myprojects" title="Projects">Projects</a>]
-                [<a href="../docs/resume.pdf" title="Resume" target="_onblank">Resume</a>]
-                [<a href="https://github.com/naughtona" title="GitHub" target="_onblank">GitHub</a>]
-            </main>
-        </div>
+        <main>
+            [<a href="../index.html" title="Home">Home</a>]
+            [<a href="#myprojects" title="Projects">Projects</a>]
+            [<a href="../docs/resume.pdf" title="Resume" target="_onblank">Resume</a>]
+            [<a href="https://github.com/naughtona" title="GitHub" target="_onblank">GitHub</a>]
 
-        <div style="background-color: rgba(125, 217, 253, 0.212);">
-            <main>
-                <h1>
-                    My Projects
-                    <img class="circular--portrait" src="../images/connorsrun.png" alt="Me" height="400px"/>
-                </h1>
-                <h2 id="contents">Contents</h2>
-                <ol>
-                    <li><a href="#expendibots" title="Expendibots Game Engine">Expendibots Game Engine</a></li>
-                    <li><a href="#inforetrieval" title="NYC Yellow Taxi Data -- Info Retrieval">NYC Yellow Taxi Data -- Info Retrieval</a></li>
-                    <li><a href="#nim" title="NIM Game Engine">NIM Game Engine</a></li>
-                    <li><a href="#contact" title="Contact">Contact Details</a></li>
-                </ol>
-                
-                <h2 id="expendibots">Expendibots Game Engine</h2>
-                        
-                <p align="justify">
-                    I developed two game-playing agents, as well as functionality for a human user, that play a novel 8x8 board game, called Expendibots. 
+            <h1>
+                My Projects
+                <img class="circular--portrait" src="../images/connorsrun.png" alt="Me" height="400px"/>
+            </h1>
+            <h2 id="contents">Contents</h2>
+            <ol>
+                <li><a href="#expendibots" title="Expendibots Game Engine">Expendibots Game Engine</a></li>
+                <li><a href="#inforetrieval" title="NYC Yellow Taxi Data -- Info Retrieval">NYC Yellow Taxi Data -- Info Retrieval</a></li>
+                <li><a href="#nim" title="NIM Game Engine">NIM Game Engine</a></li>
+                <li><a href="#contact" title="Contact">Contact Details</a></li>
+            </ol>
+            
+            <h2 id="expendibots">Expendibots Game Engine</h2>
                     
-                    <br/> <br/>
-
-                    Notably, the AI game-playing agent is an exploration of the mtd-f search algorithm. It has been implemented within an iterative deepening time-based cut-off scaffold. It features several other optimisations, including a transposition table and an opening book.
-
-                    <br/> <br/>
-
-                    Tools: (OOP) Python and Linux
-
-                    <br/> <br/>
-
-                    View and test out the project <a href="https://github.com/naughtona/expendibots-game-engine" target="_onblank">here</a>.
+            <p align="justify">
+                I developed two game-playing agents, as well as functionality for a human user, that play a novel 8x8 board game, called Expendibots. 
                 
-                    <br/> <br/>
+                <br/> <br/>
+
+                Notably, the AI game-playing agent is an exploration of the mtd-f search algorithm. It has been implemented within an iterative deepening time-based cut-off scaffold. It features several other optimisations, including a transposition table and an opening book.
+
+                <br/> <br/>
+
+                Tools: (OOP) Python and Linux
+
+                <br/> <br/>
+
+                View and test out the project <a href="https://github.com/naughtona/expendibots-game-engine" target="_onblank">here</a>.
+            
+                <br/> <br/>
+            
+                <i>Note that the linked repository also includes a detailed write-up that explains my motivations for applying said algorithms to my game-playing agent within the context of Expendibots.</i>
+            </p>
+
+            <br/>
+            <h2 id="inforetrieval">New York City Yellow Taxi Data -- Info Retrieval</h3>
+            <p align="justify">
+                I created a dictionary for New York City Taxi Data, where the underlying data structure is a Binary Search Tree (BST).
                 
-                    <i>Note that the linked repository also includes a detailed write-up that explains my motivations for applying said algorithms to my game-playing agent within the context of Expendibots.</i>
+                <br/> <br/>
+                
+                Amongst other things, such as an appreciation for time complexity analysis, this project aims to illustrate the efficiency of look-up operations when the search key is indeed the same as the key on which the BST is sorted. 
+                
+                <br/> <br/>
+                
+                Equally, it attempts to warn of the futility of implementing a BST when the search key differs from the BST key.
+
+                <br/> <br/>
+
+                Tools: C, Makefiles, and Linux
+
+                <br/> <br/>
+            
+                View and test out the project <a href="https://github.com/naughtona/NYC-yellow-taxi-2019-data" target="_onblank">here</a>.
+            </p>
+
+            <br/>
+            <h2 id="nim">NIM Game Engine</h2>
+            <p align="justify">
+                I built a game engine that facilitates game play of two variants of <a href="https://en.wikipedia.org/wiki/Nim" target="_onblank">NIM</a>.
+                
+                <br/> <br/>
+                
+                The system is designed to allow users to create AI players. Throughout the game, these players will choose their actions independent of the user and play a dominant strategy, where one exists. 
+                
+                <br/> <br/>
+                
+                Alternatively, you can create Human player, who plays according to your instructions via standard input.
+
+                <br/> <br/>
+
+                Tools: Java and Linux
+
+                <br/> <br/>
+            
+                View and test out the project <a href="https://github.com/naughtona/NIM-game-engine" target="_onblank">here</a>.
+            </p>
+
+            <h2 id="contact">Contact Details</h2>
+            <div>
+                <p>
+                Feel free to contact me via any of the channels provided below:
                 </p>
-
-                <br/>
-                <h2 id="inforetrieval">New York City Yellow Taxi Data -- Info Retrieval</h3>
-                <p align="justify">
-                    I created a dictionary for New York City Taxi Data, where the underlying data structure is a Binary Search Tree (BST).
-                    
-                    <br/> <br/>
-                    
-                    Amongst other things, such as an appreciation for time complexity analysis, this project aims to illustrate the efficiency of look-up operations when the search key is indeed the same as the key on which the BST is sorted. 
-                    
-                    <br/> <br/>
-                    
-                    Equally, it attempts to warn of the futility of implementing a BST when the search key differs from the BST key.
-
-                    <br/> <br/>
-
-                    Tools: C, Makefiles, and Linux
-
-                    <br/> <br/>
-                
-                    View and test out the project <a href="https://github.com/naughtona/NYC-yellow-taxi-2019-data" target="_onblank">here</a>.
-                </p>
-
-                <br/>
-                <h2 id="nim">NIM Game Engine</h2>
-                <p align="justify">
-                    I built a game engine that facilitates game play of two variants of <a href="https://en.wikipedia.org/wiki/Nim" target="_onblank">NIM</a>.
-                    
-                    <br/> <br/>
-                    
-                    The system is designed to allow users to create AI players. Throughout the game, these players will choose their actions independent of the user and play a dominant strategy, where one exists. 
-                    
-                    <br/> <br/>
-                    
-                    Alternatively, you can create Human player, who plays according to your instructions via standard input.
-
-                    <br/> <br/>
-
-                    Tools: Java and Linux
-
-                    <br/> <br/>
-                
-                    View and test out the project <a href="https://github.com/naughtona/NIM-game-engine" target="_onblank">here</a>.
-                </p>
-            </main>
-        </div>
-
-        <div style="background-color: rgba(255, 119, 255, 0.151);">
-            <main>
-                <h2 id="contact">Contact Details</h2>
-                <div>
-                    <p>
-                    Feel free to contact me via any of the channels provided below:
-                    </p>
-                    <img src="../images/gmail.png" alt="Gmail" width="40px" height="30px"/><tab>naughtona111[at]gmail[dot]com
-                    <br>
-                    <img class="circular--icon" src="../images/twitter.png" alt="Twitter"/><a href="https://twitter.com/AndrewNaughton5" target="_onblank"><tab>My Twitter profile</a>
-                    <br>
-                    <img class="circular--icon" src="../images/linkedin.png" alt="LinkedIn"/><a href="https://au.linkedin.com/in/andrewjamesnaughton" target="_onblank"><tab>My LinkedIn profile</a>
-                    <br>
-                    <img class="circular--icon" src="../images/fb.png" alt="Facebook"/><a href="https://facebook.com/andrew.naughton.7" target="_onblank"><tab>My Facebook profile</a>
-                </div>
+                <img src="../images/gmail.png" alt="Gmail" width="40px" height="30px"/><tab>naughtona111[at]gmail[dot]com
                 <br>
-                <div>
-                    <p>Andrew Naughton, 2020</p>
-                    <p>
-                        <a href="https://github.com/naughtona/naughtona.github.io" target="_onblank">Source</a>
-                    </p>
-                </div>
-            </main>
-        </div>
+                <img class="circular--icon" src="../images/twitter.png" alt="Twitter"/><a href="https://twitter.com/AndrewNaughton5" target="_onblank"><tab>My Twitter profile</a>
+                <br>
+                <img class="circular--icon" src="../images/linkedin.png" alt="LinkedIn"/><a href="https://au.linkedin.com/in/andrewjamesnaughton" target="_onblank"><tab>My LinkedIn profile</a>
+                <br>
+                <img class="circular--icon" src="../images/fb.png" alt="Facebook"/><a href="https://facebook.com/andrew.naughton.7" target="_onblank"><tab>My Facebook profile</a>
+            </div>
+            <br>
+            <div>
+                <p>Andrew Naughton, 2021</p>
+                <p>
+                    <a href="https://github.com/naughtona/naughtona.github.io" target="_onblank">Source</a>
+                </p>
+            </div>
+        </main>
     </body>
 </html>
