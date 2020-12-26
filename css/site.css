@@ -21,17 +21,34 @@ a {
     color: #b0f8d6;
 }
 
-.circular--portrait {
+.me-pic  {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
     float: right;
+    width: 290px;
 }
 
-.circular--icon {
+.connor-pic  {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    float: right;
+    height: 400px;
+}
+
+.circular-icon {
     position: relative;
     width: auto;
     height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.mail-icon {
+    position: relative;
+    width: 40px;
+    height: 30px;
     overflow: hidden;
     border-radius: 50%;
 }
