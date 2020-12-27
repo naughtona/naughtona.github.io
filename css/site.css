@@ -43,12 +43,14 @@ a {
     height: 40px;
     overflow: hidden;
     border-radius: 10%;
+    vertical-align: middle;
 }
 
 .mail-icon {
     position: relative;
     width: 40px;
     height: 30px;
+    vertical-align: middle;
 }
 
 img {
@@ -86,5 +88,5 @@ tab {
 }
 
 p {
-    text-justify: auto;
+    text-align: justify;
 }
