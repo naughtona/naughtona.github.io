@@ -42,15 +42,13 @@ a {
     width: auto;
     height: 40px;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .mail-icon {
     position: relative;
     width: 40px;
     height: 30px;
-    overflow: hidden;
-    border-radius: 50%;
 }
 
 img {
